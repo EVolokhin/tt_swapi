@@ -6,3 +6,84 @@
     margin-right: 10px;
   }
 }
+
+.main,
+.data {
+  text-decoration: none;
+  margin: 20px 30px;
+}
+
+.main_wrapper {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+  background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202010/0612/tndJrpwuU3fCIdr8TlJxWSCZ.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.persons_wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.person_info {
+  font-size: 18px;
+  font-weight: 400;
+  color: brown;
+  border: 1px solid #cfe8fc ;
+}
+
+.person_info:focus {
+  outline-style: none;
+}
+.person_info:hover {
+  border: 1px solid crimson;
+  border-radius: 5px;
+}
+
+.person_info:hover {
+  cursor: pointer;
+}
+
+.info_popup {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.start_btn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: red;
+  background-image: url("./icons/sword.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.MuiButton-label {
+  font-size: 15px;
+  font-weight: 700;
+  color: red;
+}
+
+.pagination {
+  justify-content: space-between ;
+  display: flex;
+  background-color: darkblue;
+  color:white;
+  align-self: center;
+}
