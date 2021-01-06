@@ -6,7 +6,7 @@ import { App } from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/tt_swapi/">
       <App />
     </Router>
   </React.StrictMode>,
